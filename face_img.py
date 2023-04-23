@@ -2,7 +2,7 @@ import cv2 as cv
 from image0 import resize
 
 # Reading the input image
-img = cv.imread(r'D:\Wallpapers\OIP (1).jpg')
+img = cv.imread(file_path)
 
 # Resizing the image (if image is large)
 img_resized = resize(img, 0.25)
